@@ -1,5 +1,4 @@
 # 🏦 Credit Risk Prediction — Home Credit Default Risk
-### OpenAImer 2026 · SRIJAN · Jadavpur University · Track 1: Supervised ML (Tabular)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
