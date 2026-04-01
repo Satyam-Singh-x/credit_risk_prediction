@@ -121,11 +121,7 @@ st.markdown("""
     <h1 style="color:white; text-align:center; margin:0; font-size:2.2rem;">
         🏦 Credit Risk Prediction
     </h1>
-    <p style="color:#aaa; text-align:center; margin:0.3rem 0 0 0;">
-        OpenAImer 2026 &nbsp;·&nbsp;
-        SRIJAN — Jadavpur University &nbsp;·&nbsp;
-        Track 1: Supervised ML (Tabular)
-    </p>
+   
     <p style="color:#3498db; text-align:center; margin:0.3rem 0 0 0;
               font-size:0.9rem;">
         LightGBM + XGBoost Ensemble &nbsp;·&nbsp;
@@ -261,8 +257,7 @@ def get_risk_category(prob, threshold):
 with st.sidebar:
     st.image("https://img.icons8.com/fluency/96/bank.png", width=80)
     st.markdown("## 🏦 Credit Risk Predictor")
-    st.markdown("**OpenAImer 2026**")
-    st.markdown("SRIJAN — Jadavpur University")
+
     st.divider()
 
     st.markdown("### 📊 Model Performance")
@@ -651,8 +646,7 @@ if predict_clicked:
     st.divider()
     st.markdown(
         "<center><small>"
-        "🏦 Credit Risk Predictor · OpenAImer 2026 · SRIJAN · "
-        "Jadavpur University · Track 1: Supervised ML (Tabular) · "
+        "🏦 Credit Risk Predictor ·"
         "Built with LightGBM + SHAP + Streamlit"
         "</small></center>",
         unsafe_allow_html=True
