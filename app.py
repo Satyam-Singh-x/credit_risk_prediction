@@ -114,40 +114,43 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Competition banner ─────────────────────────────────────────────
-st.markdown("""
-<div style="
-    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
-    padding: 2rem;
-    border-radius: 16px;
-    border: 1px solid #e74c3c;
-    margin-bottom: 1.5rem;
-    text-align: center;
-">
-
-    <h1 style="
-        color:white;
-        margin-bottom: 0.5rem;
-        font-size: 2.5rem;
-        font-weight: 800;
-    ">
-        🏦 Credit Risk Prediction
-    </h1>
-
+st.markdown(
+    """
     <div style="
-        color:#4fc3f7;
-        font-size: 1rem;
-        line-height: 1.6;
-        opacity: 0.95;
+        background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+        padding: 2rem;
+        border-radius: 16px;
+        border: 1px solid #e74c3c;
+        margin-bottom: 1.5rem;
+        text-align: center;
     ">
-        <b>LightGBM + XGBoost Ensemble</b> &nbsp;•&nbsp;
-        OOF AUC: <b>0.786</b> &nbsp;•&nbsp;
-        307,511 customers &nbsp;•&nbsp;
-        252 features &nbsp;•&nbsp;
-        SHAP Explainability
-    </div>
 
-</div>
-""", unsafe_allow_html=True)
+        <h1 style="
+            color:white;
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+            font-weight: 800;
+        ">
+            🏦 Credit Risk Prediction
+        </h1>
+
+        <div style="
+            color:#4fc3f7;
+            font-size: 1rem;
+            line-height: 1.6;
+            opacity: 0.95;
+        ">
+            <b>LightGBM + XGBoost Ensemble</b> •
+            OOF AUC: <b>0.786</b> •
+            307,511 customers •
+            252 features •
+            SHAP Explainability
+        </div>
+
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # ══════════════════════════════════════════════════════════════════
